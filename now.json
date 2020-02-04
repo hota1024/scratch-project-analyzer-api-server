@@ -1,6 +1,4 @@
 {
-  "name": "scratch-project-analyzer-api-server",
-  "alias": "sp-analyzer-api",
   "builds": [
     {
       "src": "index.go",
