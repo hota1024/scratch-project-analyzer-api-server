@@ -63,7 +63,7 @@ type Project struct {
 	} `json:"remix"`
 }
 
-func main() {
+func Handler() {
 	api := rest.NewApi()
 	api.Use(rest.DefaultDevStack...)
 	router, err := rest.MakeRouter(
