@@ -4,5 +4,13 @@
       "src": "/**/*.ts",
       "use": "@now/node"
     }
+  ],
+  "routes": [
+    {
+      "src": ".*",
+      "headers": {
+        "Access-Control-Allow-Origin": "http://localhost http://*.now.sh"
+      }
+    }
   ]
 }
