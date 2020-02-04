@@ -1,14 +1,16 @@
-package main
+package handler
 
 import (
 	"encoding/json"
-	"github.com/ant0ine/go-json-rest/rest"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/ant0ine/go-json-rest/rest"
 )
 
+// Project struct.
 type Project struct {
 	ID              int    `json:"id"`
 	Title           string `json:"title"`
@@ -63,6 +65,7 @@ type Project struct {
 	} `json:"remix"`
 }
 
+// Handler function.
 func Handler() {
 	api := rest.NewApi()
 	api.Use(rest.DefaultDevStack...)
