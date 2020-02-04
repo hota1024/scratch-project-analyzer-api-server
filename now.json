@@ -3,7 +3,7 @@
   "alias": "sp-analyzer-api",
   "builds": [
     {
-      "src": "main.go",
+      "src": "index.go",
       "use": "@now/go"
     }
   ]
