@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "src/**/*.ts",
+      "src": "/**/*.ts",
       "use": "@now/node"
     }
   ]
