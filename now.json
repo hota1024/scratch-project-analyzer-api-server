@@ -9,7 +9,7 @@
     {
       "src": ".*",
       "headers": {
-        "Access-Control-Allow-Origin": "http://localhost http://localhost:3000 http://*.now.sh"
+        "Access-Control-Allow-Origin": "*"
       }
     }
   ]
